@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState, useCallback, useEffect } from 'react';
 import { marked } from 'marked';
 import SiteHeader from './components/Header';
