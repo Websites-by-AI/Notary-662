@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { marked } from 'marked';
 import { ChatSession, PageKey, useLanguage } from '../types';
 import { REPORT_TYPES } from '../constants';
